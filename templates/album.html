@@ -1,0 +1,1 @@
+<div><h3>Photo Album</h3><ul class="slide-list"><li data-ng-repeat="s in data.album.thumbs track by $index" data-ng-click="showGallery($index)"><img data-ng-src="{{ s.src }}" alt="slide number {{ $index }}"></li></ul><div data-ng-photoswipe data-slides="data.album.slides" data-options="data.album.options" data-start-on="{{ data.album.startEvent }}"></div></div>
